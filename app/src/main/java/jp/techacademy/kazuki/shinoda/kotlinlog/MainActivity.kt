@@ -9,11 +9,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val human = Human("篠田一輝", 31, "野球") // 名前をポチ、年齢3歳で、Dogのインスタンスを作る
-
+        val human = Human("篠田一輝", 31, "野球")
         human.say()
-        human.think()
 
+        val human2 = Human("篠田一輝", 31, "野球")
+        human.think()
 
     }
 }
