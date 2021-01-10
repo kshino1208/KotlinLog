@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         human.say()
 
         val human2 = Human("篠田一輝", 31, "野球")
-        human.think()
+        human2.think()
 
     }
 }
